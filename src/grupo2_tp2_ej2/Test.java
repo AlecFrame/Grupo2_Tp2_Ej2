@@ -8,10 +8,11 @@ public class Test {
         System.out.println("///// > Walter Alexander Vertacnik");
         System.out.println("///// > Ferro Julieta");
         System.out.println("///// > Maximo Quiroga");
-        System.out.println("///// > Maycol Muñoz");
+        System.out.println("proyecto clonado > Maycol Muñoz");
         System.out.println("///// > Villegas Loudres");
         System.out.println("///// > Patricia Pagnone");
         System.out.println("///// > Sosa Chirino Marcos Antonio");
+        System.out.println("Hice un autito - Marcos");
         System.out.println("///// > Soto vela Luciano Ezequiel");
         
         
