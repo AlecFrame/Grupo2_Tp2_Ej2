@@ -55,8 +55,16 @@ public class Persona {
             case 6 -> {
                 System.out.println("Veras la F1 este fin de semana?");
             }
-        }
+        }       
         
+    }
+    public void decirHora(){
+        System.out.println("En este momento son las: " + reloj.getHora());
+    }
+
+    @Override
+    public String toString() {
+        return "Persona{" + "nombre=" + nombre + ", edad=" + edad + ", reloj=" + reloj + '}';
     }
     
     
