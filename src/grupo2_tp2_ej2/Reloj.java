@@ -29,9 +29,9 @@ public class Reloj {
     
     public void incrementarDia() {
         DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        LocalDate dia = LocalDate.parse(this.dia, formato);
-        dia = dia.plusDays(1);
-        this.dia = dia.format(formato);
+        LocalDate fecha = LocalDate.parse(dia, formato);
+        fecha = fecha.plusDays(1);
+        dia = fecha.format(formato);
         System.out.println(" (Se incremento un dia al reloj)");
     }
     
