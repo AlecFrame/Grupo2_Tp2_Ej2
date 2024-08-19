@@ -58,8 +58,13 @@ public class Persona {
         }       
         
     }
-    public void decirHora(){
-        System.out.println("En este momento son las: " + reloj.getHora());
+
+    public Reloj getReloj() {
+        return reloj;
+    }
+    
+    public void decirHora(Reloj r){
+        System.out.println("En este momento son las: " + r.getHora());
     }
     //Colocar la marca del reloj en el toString()
     @Override
