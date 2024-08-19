@@ -13,10 +13,13 @@ public class Test {
         System.out.println("///// > Patricia Pagnone");
         System.out.println("///// > Sosa Chirino Marcos Antonio");
         System.out.println("///// > Soto Vela Luciano Ezequiel");
-        System.out.println("///// > Tremendo, genio Walter");
+        System.out.println("///// > Tremendo, genio Walter\n");
         
         Reloj reloj = new Reloj("19/08/2024","12:30","nuevo",456273);
         Persona persona = new Persona("Pedro",20,reloj);
+        Auto auto = new Auto("rojo","Toyota",2016);
+        Casa casa = new Casa(2,"Maipu, casa 22, mz2");
+        Perro perro = new Perro("Piolin","Caniche",2);
         
         System.out.println("Aqui se encuentra "+persona.getNombre()+" el tiene "+persona.getEdad()+" anios de edad");
         persona.comer();
@@ -26,6 +29,10 @@ public class Test {
         persona.getReloj().incrementarHora();
         persona.decirHora(reloj);
         
+        System.out.println("\n"+persona.getNombre()+" tiene un auto "+auto.getMarca()+" "+auto.getColor()+" del "+auto.getAño());
+        System.out.println(persona.getNombre()+" vive en una casa de "+casa.getHabitaciones()+" Habitaciones en "+casa.getDomicilio());
+        System.out.println(persona.getNombre()+" tiene un "+perro.getRaza()+" llamado "+perro.getNombre()+" de "+perro.getEdad()+" años de edad");
+        System.out.println(persona.getNombre()+" tiene un gato ");
     }
     
 }
