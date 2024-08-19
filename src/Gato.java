@@ -1,4 +1,4 @@
-public class Gato {
+
 
 public class Gato {
     private String nombre;
@@ -54,7 +54,7 @@ public class Gato {
         return "Gato \nNombre: " + nombre + "\nRaza: " + raza + "\nEdad: " + edad + "\naños \nColor: " + color + "";
     }
 
-    }
 }
+
 
 
