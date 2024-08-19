@@ -33,6 +33,8 @@ public class Persona {
     }
     
     public void hablar(){
+        //Genera numeros aleatorios y en base a eso da una respuesta
+        //cuando se llama al metodo
         Random Rando = new Random();
         int numeroAleatorio = Rando.nextInt(1,7);
         
