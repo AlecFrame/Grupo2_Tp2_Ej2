@@ -12,7 +12,8 @@ public class Test {
         System.out.println("///// > Villegas Loudres");
         System.out.println("///// > Patricia Pagnone");
         System.out.println("///// > Sosa Chirino Marcos Antonio");
-        System.out.println("///// > Soto vela Luciano Ezequiel");
+        System.out.println("///// > Soto Vela Luciano Ezequiel");
+        System.out.println("///// > Tremendo, genio Walter");
         
         
     }
