@@ -29,7 +29,7 @@ public class Persona {
     
     public void comer(){
         //jajaja
-        System.out.println("ñam ñam ");
+        System.out.println("ñam ñam "+nombre+" esta comiendo");
     }
     
     public void hablar(){
@@ -66,7 +66,7 @@ public class Persona {
     }
     
     public void decirHora(Reloj r){
-        System.out.println("En este momento son las: " + r.getHora());
+        System.out.println("En este momento son las: " + r.getHora()+" del dia "+r.getDia());
     }
     //Colocar la marca del reloj en el toString()
     @Override

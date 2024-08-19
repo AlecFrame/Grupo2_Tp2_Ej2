@@ -1,6 +1,8 @@
 
 package grupo2_tp2_ej2;
 
+import animales.Gato;
+
 public class Test {
 
     public static void main(String[] args) {
@@ -20,6 +22,7 @@ public class Test {
         Auto auto = new Auto("rojo","Toyota",2016);
         Casa casa = new Casa(2,"Maipu, casa 22, mz2");
         Perro perro = new Perro("Piolin","Caniche",2);
+        Gato gato = new Gato("Pomberito","Birmano",1,"negro");
         
         System.out.println("Aqui se encuentra "+persona.getNombre()+" el tiene "+persona.getEdad()+" anios de edad");
         persona.comer();
@@ -32,7 +35,7 @@ public class Test {
         System.out.println("\n"+persona.getNombre()+" tiene un auto "+auto.getMarca()+" "+auto.getColor()+" del "+auto.getAño());
         System.out.println(persona.getNombre()+" vive en una casa de "+casa.getHabitaciones()+" Habitaciones en "+casa.getDomicilio());
         System.out.println(persona.getNombre()+" tiene un "+perro.getRaza()+" llamado "+perro.getNombre()+" de "+perro.getEdad()+" años de edad");
-        System.out.println(persona.getNombre()+" tiene un gato ");
+        System.out.println(persona.getNombre()+" tiene un gato "+gato.getRaza()+" de color "+gato.getColor()+" llamado "+gato.getNombre()+" de "+gato.getEdad()+" añito de edad");
     }
     
 }
