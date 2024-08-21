@@ -10,7 +10,7 @@ public class Test {
         System.out.println("///// TP 2 - EJ 2 ,Grupo 2, Comision 2, por: /////");
         System.out.println("///// > Walter Alexander Vertacnik");
         System.out.println("///// > Ferro Julieta");
-        System.out.println("///// > Maximo Quiroga");
+        System.out.println("///// > Maximo Quiroga");//"ME VOY A AYUDAR A OTROS GRUPOS- Saquenme del git si quieren"
         System.out.println("///// > Maycol Muñoz");
         System.out.println("///// > Villegas Loudres");
         System.out.println("///// > Patricia Pagnone");
