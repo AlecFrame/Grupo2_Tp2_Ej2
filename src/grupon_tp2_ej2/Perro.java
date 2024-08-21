@@ -1,4 +1,4 @@
-package grupo2_tp2_ej2;
+package grupon_tp2_ej2;
 
 public class Perro {
     

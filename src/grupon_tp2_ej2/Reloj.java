@@ -1,5 +1,5 @@
 
-package grupo2_tp2_ej2;
+package grupon_tp2_ej2;
 
 import java.time.LocalDate;
 import java.time.LocalTime;

@@ -1,8 +1,8 @@
 
-package grupo2_tp2_ej2;
+package grupon_tp2_ej2;
 
 import animales.Gato;
-import grupon_tp2_ej2.Amigos;
+
 
 public class Test {
 
