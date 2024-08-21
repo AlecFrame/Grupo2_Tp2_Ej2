@@ -26,7 +26,9 @@ public class Reloj {
     public String getHora() {
         return hora;
     }
-    
+    public String getModelo(){
+        return modelo;
+    }
     public void incrementarDia() {
         DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         LocalDate fecha = LocalDate.parse(dia, formato);

@@ -71,7 +71,7 @@ public class Persona {
     //Colocar la marca del reloj en el toString()
     @Override
     public String toString() {
-        return "Persona{" + "nombre=" + nombre + ", edad=" + edad + ", reloj=" + reloj + '}';
+        return "Persona{" + "nombre=" + nombre + ", edad=" + edad + ", reloj=" + reloj.getModelo() + '}';
     }
     
     
